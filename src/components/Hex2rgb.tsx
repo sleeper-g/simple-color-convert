@@ -1,7 +1,7 @@
 import React,{ useState } from "react"
 
 export const Hex2rbg = () => {
-    const [color, setColor] = useState('#eeeeee');
+    const [color, setColor] = useState('#ffffff');
 
     const [isValid, setIsValid] = useState(true);
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
