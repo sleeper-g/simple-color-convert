@@ -1,0 +1,13 @@
+:root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.widget input, .widget div {
+    padding: 10px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+}
